@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #e7f5de;
+  color: black;
+}
+.conteiner {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5c868d;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.title-content {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-water {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.autoral {
+  text-align: center;
+  font-size: 15px;
+}
+.image-water {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 20px;
+  height: 700px;
+  width: 1000px;
+}
+.lista {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(146, 146, 221);
+}
+
+footer {
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: 10px;
+}
+
+@media (max-width: 1024px) {
+  .content-water {
+    padding: 20px 20px;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  }
+  .image-water {
+    width: 700px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-water {
+    padding: 20px 20px;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  }
+  .image-water {
+    width: 700px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 468px) {
+    .main-title{
+        font-size: 30px;
+    }
+    .title-content{
+        font-size: 20px;
+    }
+    .content-water{
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        text-align: justify;
+        align-items: center;
+    }
+
+    .image-water{
+        width: 400px;
+        height: 500px;
+    }
+}
